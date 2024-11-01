@@ -1,0 +1,109 @@
+/*!
+ * jQuery ClassyGradient
+ * vox.SPACE
+ *
+ * Written by Marius Stanciu - Sergiu <marius@vox.space>
+ * Licensed under the MIT license https://vox.SPACE/LICENSE-MIT
+ * Version 1.1.1
+ *
+ */
+
+.ClassyGradient {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.ClassyGradient .canvas {
+    border: 1px solid #777;
+}
+
+.ClassyGradient .info {
+    display: none;    
+    margin-right: 20px;
+    margin-top: -14px;
+    position: absolute;
+    z-index: 1010;
+}
+
+.ClassyGradient .info .arrow-up {
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    width: 0;
+    margin-left: 20px;
+    border-color: transparent transparent #000 transparent;
+}
+
+.ClassyGradient .info .picker-content {
+    color: #fff;
+    background-color: #000;
+    padding: 8px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    line-height: 32px;
+}
+
+.ClassyGradient .points {
+    position: absolute;
+    z-index: 99;
+    max-height: 20px;
+    margin-top: -2px;
+}
+
+.ClassyGradient .point {
+    position: absolute;
+    width: 8px;
+    margin-left: -4px;
+    height: 8px;
+    top: -19px;
+    border: 2px solid #fff;
+    cursor: pointer; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+box-shadow: 0px 0px 3px #333333;
+}
+.ClassyGradient input {
+    font-size:13px;
+}
+.ClassyGradient .point-position {
+    position: relative;
+/*    top: -12px;
+    margin-left: 6px;*/
+}
+.ClassyGradient .colorPickerCover {
+    display: block;
+}
+.ClassyGradient .delete {
+    display: block;
+    margin:0;
+    padding:0;
+/*    height: 16px;*/
+    position: relative;
+/*    margin: 8px;*/
+    font-size:13px;
+    color:#eaeaea;
+    text-align: center;
+}
+
+.ClassyGradient .point-color {
+    display: inline-block;
+    display:none;
+    width: 36px;
+    height: 36px;
+}
+
+.ClassyGradient .point-color div {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    border:1px solid #ddd;
+}
